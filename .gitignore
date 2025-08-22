@@ -1,1 +1,4 @@
 .pio
+sdkconfig.esp32dev
+sdkconfig.esp32dev.old
+.idea
