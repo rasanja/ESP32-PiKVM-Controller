@@ -1,0 +1,23 @@
+menu "App Config"
+
+config WIFI_SSID
+    string "WiFi SSID"
+    default "CHANGEME"
+
+config WIFI_PASSWORD
+    string "WiFi Password"
+    default "CHANGEME"
+
+config PIKVM_HOST
+    string "PiKVM host or IP (no scheme)"
+    default "192.1.1.1"
+
+config PIKVM_USER
+    string "PiKVM username"
+    default "username"
+
+config PIKVM_PASS
+    string "PiKVM password"
+    default "CHANGEME"
+
+endmenu
